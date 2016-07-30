@@ -116,7 +116,6 @@ public class LoginActivity extends AppCompatActivity {
 
                                     setProgressBarIndeterminateVisibility(false);
 
-
                                     // If sign in fails, display a message to the user. If sign in succeeds
                                     // the auth state listener will be notified and logic to handle the
                                     // signed in user can be handled in the listener.
@@ -134,13 +133,9 @@ public class LoginActivity extends AppCompatActivity {
                                         Toast.makeText(LoginActivity.this,"Sign In Succesfull",
                                                 Toast.LENGTH_SHORT).show();
                                     }
-
                                 }
                             });
                     // [END sign_in_with_email]
-
-
-
                 }
             }
         });

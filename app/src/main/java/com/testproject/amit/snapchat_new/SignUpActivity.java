@@ -38,8 +38,6 @@ public class SignUpActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-
         //By BB
         mAuth = FirebaseAuth.getInstance();
 
@@ -146,9 +144,6 @@ public class SignUpActivity extends AppCompatActivity {
                     mUsername.setText("");
                     mPassword.setText("");
                     mEmail.setText("");
-
-
-
                 }
 
             }

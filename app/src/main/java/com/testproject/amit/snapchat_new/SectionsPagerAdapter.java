@@ -4,9 +4,11 @@ package com.testproject.amit.snapchat_new;
  * Created by bhavini on 30-07-2016.
  */
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.ListFragment;
 
 /**
  * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
@@ -14,20 +16,36 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-    public SectionsPagerAdapter(FragmentManager fm) {
+    private Context mContext;
+
+    public SectionsPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
+        this.mContext = context;
     }
 
     @Override
     public Fragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
         // Return a PlaceholderFragment (defined as a static inner class below).
-        return MainActivity.PlaceholderFragment.newInstance(position + 1);
+
+        //Previous code
+        //return MainActivity.PlaceholderFragment.newInstance(position + 1);
+
+        switch(position)
+        {
+            case 0:
+                new ListFragment();
+
+            case 1:
+                new FriendsFragment();
+
+        }
+
+        return null;
     }
 
     @Override
     public int getCount() {
-        // Show 3 total pages.
         return 2;
     }
 
@@ -35,12 +53,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "SECTION 1";
+                return mContext.getString(R.string.title_section1);
             case 1:
-                return "SECTION 2";
-            case 2:
-                return "SECTION 3";
+                return mContext.getString(R.string.title_section2);
         }
         return null;
     }
+
 }
