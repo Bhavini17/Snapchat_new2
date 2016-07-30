@@ -20,6 +20,9 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class MainActivity extends AppCompatActivity {
 
     /**
@@ -68,8 +71,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Intent i = new Intent(MainActivity.this, LoginActivity.class);
-        startActivity(i);
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if(user == null) {
+            Intent i = new Intent(MainActivity.this, LoginActivity.class);
+            i.addFlags(i.FLAG_ACTIVITY_CLEAR_TASK);
+            i.addFlags(i.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(i);
+        }
     }
 
 
@@ -90,6 +98,10 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }
+        else if(id == R.id.action_logout)
+        {
+            signOut();
         }
 
         return super.onOptionsItemSelected(item);
@@ -166,4 +178,14 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
+
+    private void signOut()
+    {
+        FirebaseAuth.getInstance().signOut();
+        Intent i = new Intent(MainActivity.this, LoginActivity.class);
+        i.addFlags(i.FLAG_ACTIVITY_CLEAR_TASK);
+        i.addFlags(i.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+    }
+
 }
