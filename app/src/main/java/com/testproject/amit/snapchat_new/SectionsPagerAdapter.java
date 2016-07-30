@@ -34,10 +34,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch(position)
         {
             case 0:
-                new ListFragment();
+                return new ListFragment();
 
             case 1:
-                new FriendsFragment();
+                return new FriendsFragment();
 
         }
 
