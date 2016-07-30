@@ -1,3 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3c468d8118ea8b4f0f7b9e184ad03d327184e44a">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6ee714cdd0495ae8c86dd0b4bbf0228ec372a02c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_05c650ad859e74d71cc75496b788774d40366077\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_5823c4e0582b05f2fe216e8c69797aa2a9a0193e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.1_9987bead8c452114f4ab6c150337595419982682\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.3.1\be29b24233711c419ce935aa0a1b12ebc49d1c9a\firebase-client-android-2.3.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.3.1_931539595ab14fba94f1310804d025469f4acc51\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.1_fe9457d7fdb434ef6cc1610db3af455d9a51cd80\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.3.1\4d53b7d6983247af02b8fe7e4228fff555a5e828\firebase-client-jvm-2.3.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.3.1_5c4034144fb422ad0008388ef88ea08c341f9b31\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_87a2efd7f91bf9b39617681d0907489e081fc604\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.11_920f2bed23a6453c17eeb9c732012e79a89bb053\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.1_af5599139982d631035768fae28e7256db75a403\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.1_c6ea9d3c4c9c58ec60749639003598b89c5333b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c069a8c8c10af2b8a2559b7e10f04f5cef76ae27">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e4b618ee7b866f4833f6334e0fac8fb538243069\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_d82f233324e24858108af290ae0679dec4b1ea33\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_f8a3e63f9a0800c0e0335d790865b51210f25f44\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_53b03fe553f4f832cb358bc72b4fc72efdb3bd7f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_1405e04e2c807f09544e7f40afe5dc3eb3142b34\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_52c7f97bb83109dd16fc2173a4520a2f0bb89bb6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.1_1d053530fd79af734d42a02d3f16836c65212d63\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_86bc35b44e46659d20548a929f99ff2b1485fa8c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_313e8d7735004fd77cef1d65ac372d0f237412a4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.1_62d22553bea68d89d0f1fe709cb11fc4a614d098\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\Amit\AndroidStudioProjects\Snapchat_new2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_39dd62aecd75b626d625866e346a557f205ecf37\classes.dex" />
+    </item>
+
+</items>

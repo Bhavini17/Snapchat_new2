@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    //Logim=n successfull
+                    //Login successfull
                 }
             }
         });
